@@ -6,18 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <div class="header">
-        <ul id="nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">MENU</a></li>
-            <li><a href="#">ACCESS</a></li>
-            <li><a href="#">NEWS</a></li>
-        </ul>
-    </div>
+    <div class="wrap">
+    <div id="hamburger">
+        <p class="btn-gNav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </p>
+        <nav id="gNav" class="">
+          <ul class="gNav-menu">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">MENU</a></li>
+            <li><a href="">ACCESS</a></li>
+            <li><a href="">NEWS</a></li>
+          </ul>
+        </nav>
+      </div>
 
     <div id="home" class="big-bg">
         <div class="main wrapper">
@@ -28,7 +37,7 @@
         </div>
     </div>
 
-    <div class="about wrapper">
+    <div class="about">
         <h1>ABOUT US</h1>
         <p>私たちはお客様に最高の一杯をご提供するため</p>
         <p>豆の品質、焙煎方法にこだわっています</p>
@@ -43,7 +52,7 @@
         <div class="item">
             <img src="img/roasted-beans.png" alt="">
             <h1>香りにこだわる</h1>
-            <p>焙煎したての香りをお届けします</p>
+            <p>焙煎したての香   りをお届けします</p>
             <p>焙煎した日を管理し、常に<br>鮮度の良い豆をご用意しています。</p>
         </div>
         <div class="item">
@@ -56,7 +65,7 @@
     </div>
 
 
-    <div class="menu wrapper">
+    <div class="menu">
         <h1>MENU</h1>
         <p>オリジナルブランドコーヒーやラテ、<br>それらによく合うフードを<br>店内で丁寧に作り上げています。</p>
     </div>
@@ -147,5 +156,8 @@
         <p>©Yudai Suzuki / Design Studio</p>
     </div>
 
+</div>
+
+    <script type="text/javascript" src="humberger.js"></script>
 </body>
 </html>
